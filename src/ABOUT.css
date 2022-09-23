@@ -1,0 +1,143 @@
+.img1 {
+    float: left; 
+    height: 80px ; 
+    width: 80px; 
+    margin-left: 8mm ; 
+    margin-top: 5px; 
+    margin-top: 17mm;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(0, 140, 255), rgb(229, 255, 0),  rgb(0, 255, 76));
+    background-repeat: no-repeat;
+}
+
+.church {
+    height: 50vh;
+    width: 40%;
+    margin-top: 25mm;
+    margin-left: 5%;
+}
+
+#src1 {
+    width: 80%;
+
+}
+.description {
+    background-color: transparent;
+    width: 45%;
+    float: right;
+    height: 55vh;
+    margin-top: -55vh;
+    margin-right: 5%;
+}
+
+#p1 {
+    margin-top: 15mm;
+    color: grey;
+    text-align: justify;
+}
+
+
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+
+    position: relative;
+
+    opacity: 0.90;
+
+    background-attachment: fixed;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    z-index: -1;
+
+}
+
+.bgimg-1 {
+
+    background-image: url("./../src/about/nigh\ t.jpg");
+
+    min-height: 100%;
+
+}
+
+.bgimg-2 {
+
+    background-image: url("./../src/about/yout.jpg");
+
+    min-height: 400px;
+
+}
+
+
+
+.bgimg-3 {
+
+    background-image: url("./../src/about/municipio.JPG");
+
+    min-height: 400px;
+
+}
+
+.caption {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 50%;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #000;
+
+}
+
+.caption span.border {
+
+    background-color: #111;
+
+    color: #fff;
+
+    padding: 18px;
+
+    font-size: 25px;
+
+    letter-spacing: 10px;
+    
+
+}
+
+h3 {
+
+    letter-spacing: 5px;
+
+    text-transform: uppercase;
+
+    font: 20px "Lato", sans-serif;
+
+    color: #111;
+
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+
+        background-attachment: scroll;
+
+    }
+
+}

@@ -1,0 +1,120 @@
+/* body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(0, 140, 255), rgb(229, 255, 0),  rgb(0, 255, 76), red);
+    background-repeat: no-repeat;
+    opacity: 0.90;
+    } */
+    
+
+
+
+
+.img1 {
+    float: left; 
+    height: 80px ; 
+    width: 80px; 
+    margin-left: 8mm ; 
+    margin-top: 5px; 
+    margin-top: 17mm;
+}
+.caption {
+    background-color: transparent;
+    z-index: -1;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 35%;
+    width: 100%;
+    font-size: 30px;
+    opacity: .80;
+    color: white;
+    font-weight: 800;
+   
+}
+
+
+.bgimg-1 {
+    background-image: url(./.././src/contact/bbee.jpg);
+    z-index: -1;
+    opacity: .90;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: center;
+    background-size: cover;
+    top: 18mm;
+}
+
+.color-overlay {
+    background-color: lightblue;
+    opacity: .7;
+    position: relative;
+    top: 0%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60vh;
+    z-index: -1;
+}
+
+
+
+.side {
+    z-index: -1;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 115%;
+    left: 10%;
+    width: 35%;
+    height: 40vh;
+    font-size: 30px;
+    opacity: 8;
+    background-color: white;
+   
+}
+
+#imgside {
+    width: 60px;
+    height: 60px;
+    padding-top:5px;
+}
+
+
+
+.side2 {
+    z-index: -1;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 115%;
+    left: 55%;
+    width: 35%;
+    height: 40vh;
+    font-size: 30px;
+    opacity: 8;
+    background-color: white;
+   
+}
+
+#imgside2 {
+    width: 60px;
+    height: 60px;
+}
+
+#input {
+    border-radius: 4px;
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+}
+#button {
+    width: 50%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 900;
+}
+#button:hover {
+    color: white;
+    background-color: green;
+}

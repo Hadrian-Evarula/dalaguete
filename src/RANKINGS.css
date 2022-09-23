@@ -1,0 +1,39 @@
+
+div.gallery {
+    margin: 10px;
+    border: 2px solid chocolate;
+    margin-left: 12vw;
+    float: left;
+    width:35%;
+    cursor: pointer; 
+    padding: 10px;
+    margin-top: 30mm;
+    background-color: lightpink;
+  
+}
+div.gallery:hover{
+    border: 2px double cornflowerblue;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    text-align: justify;
+}
+
+.back{
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+  }
+
+  
+.img1 {
+    float: left; 
+    height: 80px ; 
+    width: 80px; 
+    margin-left: 8mm ; 
+    margin-top: 5px; 
+    margin-top: 17mm;
+}
+

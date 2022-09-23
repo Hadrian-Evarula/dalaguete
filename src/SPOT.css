@@ -1,0 +1,25 @@
+
+ .img1 {
+    float: left; 
+    height: 80px ; 
+    width: 80px; 
+    margin-left: 8mm ; 
+    margin-top: 5px; 
+    margin-top: 17mm;
+}
+.videodiv {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+@media only screen and (max-device-width: 1024px) {
+
+
+}
